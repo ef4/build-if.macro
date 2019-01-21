@@ -1,0 +1,16 @@
+{
+  "include": ["./ts/**/*.ts"],
+  "compilerOptions": {
+    "lib": ["es7"],
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./js",
+    "typeRoots": ["node_modules/@types", "types"],
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "strict": true
+  }
+}
